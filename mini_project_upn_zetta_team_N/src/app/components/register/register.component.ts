@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-
+  Roles: any = ['Admin', 'Author', 'Reader'];
+  constructor() { }
+  ngOnInit() {
+  }
 }
